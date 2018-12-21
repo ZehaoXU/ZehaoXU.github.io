@@ -4,12 +4,26 @@
 @import "jekyll-theme-minimal";
 
 h1, h2{
-    text-align: center;
+    margin: 0 0 15px;
 }
 
 h2 {
-    color: #727272;
-    font-size: 14px; }
+    color: #000000;
+    font-size: 25px; }
+
+h3{
+    margin: 0 0 15px;
+    padding: 5px 0 0 0;
+}
+
 .mid {
     text-align: center;
+}
+
+p{
+    margin: 0 0 8px;
+}
+
+body {
+    padding: 25px;
 }

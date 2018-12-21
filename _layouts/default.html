@@ -5,35 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../assets/img/weblogo.png" type="image/x-icon">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript">
-			window.onload = function(){
-				document.querySelector("#roll1").onclick = function(){
-					document.querySelector("#roll_top").scrollIntoView(false);
-				}
-				document.querySelector("#roll2").onclick = function(){
-					document.querySelector("#roll_top").scrollIntoView(true);
-				}
-			}
-		</script> 
-		<style type="text/css">
-			#myDiv{
-				height:900px;
-				background-color:gray;
-				
-			}
-			#roll_top{
-				height:900px;
-				background-color:green;
-				color:#FFF;
-				font-size:50px;
-				position:relative;
-			}
-			#bottom{
-				position:absolute;
-				display:block;
-				left;0;bottom:0;
-			}
-		</style>
+        $(document).ready(function() {
+            $("a").click(function() {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 500,
+                    easing: "swing"
+                });
+                return false;
+            });
+        });
+    </script>
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -44,16 +29,20 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">Zehao Xu</a></h1>
-        <h2>Any fool can know. The point is to understand.</h2>
+        <h1 class="mid"><a href="{{ "/" | absolute_url }}">Zehao Xu</a></h1>
+        <p class="mid"><i>Any fool can know. The point is to understand. -- Albert Einstein</i></p>
         
         {% if site.logo %}
           <img src="../assets/img/myself.png" />
         {% endif %}
-
-        <p class="mid">Senior student in Automation of Zhejiang University</p>
+        
+        <p class="mid">Senior student in Automation at Zhejiang University</p>
         <p class="mid"><a href="#about">About Me</a> </p>
-        <p class="mid"><strong>Contact:</strong> zehaoxu1997@gmail.com</p>
+        <p class="mid"><a href="#ongoing">Ongoing Projects</a> </p>
+        <p class="mid"><a href="#previous">Previous Projects</a></p>        
+        <p class="mid"><a href="#interest">Interests</a></p>
+
+        <p class="mid">Email: zehaoxu1997@gmail.com</p>
 
         <!-- <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p> -->
 
@@ -65,6 +54,7 @@
           <li><a href="https://github.com/ZehaoXU">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+
       </header>
       <section>
 
