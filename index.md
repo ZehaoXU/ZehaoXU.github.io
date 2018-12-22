@@ -31,8 +31,7 @@ Obstacle avoidance is an vital part for autonomous robots. In this project, we i
 
 |![icp](../assets/img/icp.gif)|![slam](../assets/img/slam.gif)|
 
-
-|![matlab](../assets/img/matlab.png)|
+|![matlab](../assets/img/matlab.jpg)|
 
 
 <h3>Vision-Based Flight Control on a Self-Built Drone </h3>

@@ -22,7 +22,17 @@ h3{
 
 .tag {
     text-align: center;
-    // font-weight: bold;
+    font-weight: bold;
+}
+
+.tag a:hover, a:focus {
+    color: #069;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul.downloads {
+    text-align: center;
 }
 
 p{
