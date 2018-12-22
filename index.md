@@ -5,7 +5,9 @@ layout: default
 <h2 id="about">About Me </h2>
 I am a senior student in **[Department of Control Science and Engineering](http://www.cse.zju.edu.cn/english/)** at **[Zhejiang University](http://www.zju.edu.cn/english/)**, majoring in Automation. Currently, I am a software development intern in Advanced Graphics and Vision Group at **[Hikvision](http://www.hikvision.com/en/)**. I used to work with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Dongqin Feng](https://person.zju.edu.cn/en/0097033)** at my home institution, Zhejiang University.
 <br> <br>
-My research interests include but are not limited to: Robotics, Computer Vision, and Image Processing & Analysis (especially medical images).<br><br>
+My research interests include but are not limited to: Robotics, Computer Vision, and Image Processing & Analysis (especially medical images).
+
+---
 
 <h2 id="ongoing">Ongoing Projects </h2>
 
@@ -16,7 +18,8 @@ An unexpected thoracoscopy surgery in my sophomore year, both terrifying and ins
 
 <h3>LiDAR SLAM on a Mobile Robot -- Hikvision</h3>
 As a software development intern, I did a lot of supportive work, including analyzing LiDAR protocol, designing a cloud visualization dashboard to render raw point cloud data, and building a point cloud preprocessing pipeline to amend dynamic distortion. Recently, I am learning and implementing SURF and SIFT algorithms separately and then compare the time costs of computing descriptors. 
-<br> <br>
+
+---
 
 
 <h2 id="previous">Previous Projects </h2>
