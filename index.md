@@ -16,7 +16,7 @@ An unexpected thoracoscopy surgery in my sophomore year, both terrifying and ins
 
 |![ct1](../assets/img/ct1.png)|![ct2](../assets/img/ct2.png)|![ct3](../assets/img/ct3.png)|
 
-<h3>LiDAR SLAM on a Mobile Robot -- Nanjiang Robotics</h3>
+<h3>LiDAR SLAM on a Mobile Robot -- Hikvision</h3>
 As a software development intern, I did a lot of supportive work, including analyzing LiDAR protocol, designing a cloud visualization dashboard to render raw point cloud data, and building a point cloud preprocessing pipeline to amend dynamic distortion. Recently, I am learning and implementing SURF and SIFT algorithms separately and then compare the time costs of computing descriptors. 
 
 ---
