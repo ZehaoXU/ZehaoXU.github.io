@@ -3,14 +3,13 @@ layout: default
 ---
 
 <h2 id="about">About Me </h2>
-I am a senior student in **[Department of Control Science and Engineering](http://www.cse.zju.edu.cn/english/)** at **[Zhejiang University](http://www.zju.edu.cn/english/)**, majoring in Automation. Currently, I am a software development intern in Advanced Graphics and Vision Group at **[Hikvision](http://www.hikvision.com/en/)**. I used to work with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Dongqin Feng](https://person.zju.edu.cn/en/0097033)** at my home institution, Zhejiang University.
+I am a senior student in **[Department of Control Science and Engineering](http://www.cse.zju.edu.cn/english/)** at **[Zhejiang University](http://www.zju.edu.cn/english/)**, majoring in Automation. Currently, I am a software development intern in Advanced Graphics and Vision Group at **[Hikvision](http://www.hikvision.com/en/)**. I used to work with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Jiangang Lu](https://person.zju.edu.cn/en/lujg)** at my home institution, Zhejiang University.
 <br> <br>
 My research interests include but are not limited to: Robotics, Computer Vision, and Image Processing & Analysis (especially medical images).
 
 ---
 
 <h2 id="ongoing">Ongoing Projects </h2>
-
 <h3>Pulmonary Image Analysis to Diagnose, Evaluate and Follow up Overall Disease Change</h3>
 An unexpected thoracoscopy surgery in my sophomore year, both terrifying and inspiring, still echoes in my mind. That was when I came to realize how imaging technologies could positively impact the world with the potential to save millions of lives. So I chose this project as my graduation thesis. We tried to combine CT with modern computer-based image analysis techniques (computer vision, machine learning) to provide a model or tool for radiologists to better diagnose diseases. It is inspiring and challenging due to lack of generalization and well-defined edges.
 
