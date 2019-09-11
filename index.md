@@ -3,29 +3,50 @@ layout: default
 ---
 
 <h2 id="about">About Me </h2>
-I am a senior student in **[Department of Control Science and Engineering](http://www.cse.zju.edu.cn/english/)** at **[Zhejiang University](http://www.zju.edu.cn/english/)**, majoring in Automation. Currently, I am a software development intern in Advanced Graphics and Vision Group at **[Hikvision](http://www.hikvision.com/en/)**. I used to work with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Jiangang Lu](https://person.zju.edu.cn/en/lujg)** at my home institution, Zhejiang University.
-<br> <br>
-My research interests include but are not limited to: Robotics, Computer Vision, and Image Processing & Analysis (especially medical images).
+I am a master student at University of California, San Diego majoring in Computer Science. Previously, I received  a B.E. in Automation (Control Engineering) at Zhejiang University. I used to be a software development intern in Mobile Robot Department at **[Hikvision](http://www.hikvision.com/en/)**. During the internship, I built a internal point cloud data visualization web application from stretch with React.js and Node.js, which was used widely among the teams. I also worked as a research assistant with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Jiangang Lu](https://person.zju.edu.cn/en/lujg)** at my home institution, Zhejiang University.
+
+
+
+Now I am actively seeking for Summer 2020 SDE internships.  
 
 ---
 
-<h2 id="ongoing">Ongoing Projects </h2>
+<h2 id="ongoing">Work Experiences</h2>
+
+<h3>Hangzhou Hikvision Digit Technology Co., Ltd</h3>
+
+*Software Engineer Intern, Mobile Robot Department*
+
+The goal of my team is to analyze a new type of LiDAR and built processing tools for raw point cloud data. In order to provide upper management tools, I developed a internal dashboard web application from stretch for rendering point cloud images and parameters based on MVC principles. I created the front-end with D3.js and React.js for compressive data visualization, and built the back-end using Node.js and Express with MongoDB. To provide limits of authorities, I designed an authentication API using JWT (JSON Web Tokens). The website was used by many teams to manage their progress and saved them much time from directly access to the raw point cloud data.
+
+
+
+I also did some supportive work, including building a point cloud preprocessing pipeline for denoising and implementing SURF and SIFT feature detection algorithms, using C++ and PCL (Point Cloud Library).
+
+
+
+<h3>University of California, Los Angeles</h3> 
+
+*Research Assistant, Center for Vision, Cognition, Learning and Autonomy*
+
+Our team worked on build a model-based trajectory optimization library using large-scale nonlinear programming. I used the physical engine Mujoco to provide real dynamic and kinematic constraints, and used the nonlinear optimizer IPOPT to provide large-scale data-driven optimization. Then I built a data visualization module that can interactively render 3D trajectory animations using C++ and OpenGL.
+
+
+
+It's a short-cycle and iterative development project, so we used C++ best practices while coding. In order for the maintainability and scalability of the whole system, I wrote unit test using GTest/GMock framework in C++ with rigorous practices to maintain test coverage over 90%. Working with a large code base, one challenge was the memory leak and the poor performance. So I employed profiling data to fix memory leaks, and optimized the calculation of Jacobian Matrix and significantly improve the cache performance.
+
+
+
+|![inverted](../assets/img/inverted.gif)|![d_inverted](../assets/img/d_inverted.gif)|![cartpole](../assets/img/cartpole.gif)|
+
+---
+
+<h2 id="previous">Previous Projects </h2>
 <h3>Pulmonary Image Analysis to Diagnose, Evaluate and Follow up Overall Disease Change</h3>
+
 An unexpected thoracoscopy surgery in my sophomore year, both terrifying and inspiring, still echoes in my mind. That was when I came to realize how imaging technologies could positively impact the world with the potential to save millions of lives. So I chose this project as my graduation thesis. We tried to combine CT with modern computer-based image analysis techniques (computer vision, machine learning) to provide a model or tool for radiologists to better diagnose diseases. It is inspiring and challenging due to lack of generalization and well-defined edges.
 
 |![ct1](../assets/img/ct1.png)|![ct2](../assets/img/ct2.png)|![ct3](../assets/img/ct3.png)|
-
-<h3>LiDAR SLAM on a Mobile Robot -- Hikvision</h3>
-As a software development intern, I did a lot of supportive work, including analyzing LiDAR protocol, designing a cloud visualization dashboard to render raw point cloud data, and building a point cloud preprocessing pipeline to amend dynamic distortion. Recently, I am learning and implementing SURF and SIFT algorithms separately and then compare the time costs of computing descriptors. 
-
----
-
-
-<h2 id="previous">Previous Projects </h2>
-<h3>Model-Based Trajectory Optimization using Large-Scale Nonlinear Programming </h3>
-In order to research on robot motion planning, we built a trajectory optimization library using IPOPT, a large-scale nonlinear optimizer, and physical engine Mujoco. Finally, we built a trajectory optimization library that can avoid collisions while satisfying all constraints, and designed a visualization module to evaluate it.
-
-|![inverted](../assets/img/inverted.gif)|![d_inverted](../assets/img/d_inverted.gif)|![cartpole](../assets/img/cartpole.gif)|
 
 
 <h3>Robot Obstacle Avoidance System and Simulation using EKF-SLAM and VFH+ </h3>
@@ -44,16 +65,13 @@ In this project, a four-roter drone was designed, including original hardware mo
 
 <h2 id="interest">Passion </h2>
 - **Music:**
-I am fond of rock and folk music. I started tp play the drums at a very young age and then started to play the acoustic guitar, which is still my favorite in my leisure time. My favorite guitar player is *Eric Clapton* and favorite song is *Hotel California (unplugged version, 1994)*.
+I am fond of rock and folk music. I started tp play the drums at a very young age and then learned to play the acoustic guitar by accident, which is still my favorite. I performed on the New Year's Party twice with my guitar during my undergraduate period. My favorite guitar player is *Eric Clapton* and favorite song is *Hotel California (unplugged version, 1994)*.
 
 - **Photography:**
-Since I got my first digital SLR, I have fallen in love with photography, especially landscape photography, which makes me love traveling too. Click **[here](./gallery.html)** to see the gallery.
+Since I got my first digital SLR, I have fallen in love with landscape photography, which makes me love traveling too. Click **[here](./gallery.html)** to see the selected works.
 
-- **Volunteering:**
-I love to devote myself to volunteer services. In the past two years, I guided visitors at the West Lake, taught students in remote rural areas, helped athletes during the sports meeting, assisted in conferences, and many more.
-
-- **Taxonomy and Ethology:**
-In high school, I got access to Biology Olympiad and was so fascinated by Taxonomy and Ethology. I have a dream that one day I can get closer to these amazing creatures in the wild and make a documentary film.
+- **Zoology and Ethology:**
+In high school, I got access to Biology Olympiad and was so fascinated by Zoology and Ethology. I am always dreaming that one day I can get closer to these amazing creatures in the wild and make a documentary film.
 
 - **Cooking:**
 The traditional culture behind Chinese food always attracts me and I often cook for my families at home.
