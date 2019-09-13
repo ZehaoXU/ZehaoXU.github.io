@@ -30,28 +30,30 @@
     <div class="wrapper">
       <header>
         <h1 class="mid"><a href="{{ "/" | absolute_url }}">Zehao Xu</a></h1>
-        <p class="mid"><i>Life is like riding a bicycle. To keep your balance, you must keep moving.</i></p>
+        <p class="mid menu"><i>Life is like riding a bicycle. To keep your balance, you must keep moving.</i></p>
         
         {% if site.logo %}
           <img src="../assets/img/myself.png" />
         {% endif %}
         
-        <p class="mid">Senior student in Automation at Zhejiang University</p>
-        <p class="tag"><a href="#about">About Me</a> </p>
-        <p class="tag"><a href="#ongoing">Ongoing Projects</a> </p>
-        <p class="tag"><a href="#previous">Previous Projects</a></p>        
-        <p class="tag"><a href="#interest">Passion</a></p>
+        <p class="mid menu">Master student in Computer Science at University of California, San Diego</p>
+        <p class="tag menu"><a href="#about">About Me</a> </p>
+        <p class="tag menu"><a href="#ongoing">Work Experiences</a> </p>
+        <p class="tag menu"><a href="#previous">Selected Projects</a></p>        
+        <p class="tag menu"><a href="#interest">Passions</a></p>
+        <p class="tag menu"><a href="./gallery.html">Gallery</a></p>
 
-        <p class="mid">Email: zehaoxu1997@gmail.com</p>
+        <!-- <p class="mid">Email: zexu@eng.ucsd.edu</p>
+        <p class="mid">Tel: (858)214-0059</p> -->
 
         <!-- <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p> -->
 
 
         {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="https://zehaoxu.github.io/">View on <strong>Homepage</strong></a></li>
-          <li><a href="../assets/cv.pdf">Download <strong>My CV</strong></a></li>
-          <li><a href="https://github.com/ZehaoXU">View On <strong>GitHub</strong></a></li>
+        <ul class="icons mid">
+          <li><a href="mailto:zexu@eng.ucsd.edu"><img src="../assets/img/email.svg" /></strong></a></li>
+          <li><a href="https://github.com/ZehaoXU"><img src="../assets/img/github.svg" /></a></li>
+          <li><a href="https://www.linkedin.com/in/zehao-xu-aa082a191"><img src="../assets/img/linkedin.svg"></a></li>
         </ul>
         {% endif %}
 

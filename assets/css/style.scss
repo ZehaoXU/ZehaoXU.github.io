@@ -31,16 +31,33 @@ h3{
     text-decoration: underline;
 }
 
-ul.downloads {
-    text-align: center;
-    padding: auto;
-    margin: auto;
+.menu {
+    margin: 0 0 10px;
 }
 
 p{
-    margin: 0 0 8px;
+    margin: 0 0 15px;
 }
 
 body {
     padding: 20px;
+}
+
+body ul.icons {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body ul.icons li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    padding: auto;
+    overflow: hidden;
+}
+
+body ul.icons li a:hover a:focus img {
+    transform: translateY(-50px);
+    filter: drop-shadow(#069 0 50px);
 }
