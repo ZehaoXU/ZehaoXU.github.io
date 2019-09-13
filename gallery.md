@@ -7,9 +7,8 @@ layout: default
 **[Back](./)**
 
 
-
+|![21](../assets/img/gallery/21.jpg)|![22](../assets/img/gallery/22.jpg)|
 |![1](../assets/img/gallery/1.jpg)|![2](../assets/img/gallery/2.jpg)|
-|:-------------|:------------------|
 |![3](../assets/img/gallery/3.jpg)|![4](../assets/img/gallery/4.jpg)|
 |![5](../assets/img/gallery/5.jpg)|![6](../assets/img/gallery/6.jpg)|
 |![7](../assets/img/gallery/7.jpg)|![8](../assets/img/gallery/8.jpg)|

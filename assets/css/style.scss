@@ -3,17 +3,23 @@
 
 @import "jekyll-theme-minimal";
 
-h1, h2{
+strong {
+    color: #727272;
+}
+
+h1{
     margin: 0 0 15px;
 }
 
 h2 {
+    margin: 10px, 0;
     color: #000000;
     font-size: 25px; }
 
 h3{
     margin: 0 0 15px;
     padding: 5px 0 0 0;
+    font-size: 18px;
 }
 
 .mid {
@@ -57,7 +63,31 @@ body ul.icons li {
     overflow: hidden;
 }
 
-body ul.icons li a:hover a:focus img {
-    transform: translateY(-50px);
-    filter: drop-shadow(#069 0 50px);
+body ul.icons li div {
+    height: 32px;
+    width: 32px;
+}
+
+body ul.icons li div#email {
+    background-image: url(../../assets/img/email.svg)
+}
+
+body ul.icons li div#github {
+    background-image: url(../../assets/img/github.svg)
+}
+
+body ul.icons li div#linkedin {
+    background-image: url(../../assets/img/linkedin.svg)
+}
+
+body ul.icons li a:hover div#email {
+    background-image: url(../../assets/img/email_hover.svg)
+}
+
+body ul.icons li a:hover div#github {
+    background-image: url(../../assets/img/github_hover.svg)
+}
+
+body ul.icons li a:hover div#linkedin {
+    background-image: url(../../assets/img/linkedin_hover.svg)
 }

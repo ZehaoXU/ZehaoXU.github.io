@@ -4,7 +4,7 @@ layout: default
 
 <h2 id="about">About Me </h2>
 
-I am a master student at **the University of California, San Diego** majoring in **Computer Science**. Previously, I received  a B.E. in Automation (Control Engineering) at **Zhejiang University**. I used to be a software development intern in Mobile Robot Department at **[Hikvision](http://www.hikvision.com/en/)**. I also worked as a research assistant with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Jiangang Lu](https://person.zju.edu.cn/en/lujg)** at my home institution, Zhejiang University.
+I am a master student at **[the University of California, San Diego](https://ucsd.edu/)** majoring in Computer Science. Previously, I received  a B.E. in Automation (Control Engineering) at **[Zhejiang University](http://www.zju.edu.cn/english/)**. I used to be a software development intern in Mobile Robot Department at **[Hikvision](http://www.hikvision.com/en/)**. I also worked as a research assistant with **[Prof. Tao Gao](http://www.stat.ucla.edu/~taogao/)** in **[VCLA Lab](http://vcla.stat.ucla.edu/index.html)** at UCLA and **[Prof. Jiangang Lu](https://person.zju.edu.cn/en/lujg)** at my home institution, Zhejiang University.
 
 
 Now I am actively seeking for Summer 2020 SDE internships.  
@@ -16,20 +16,20 @@ Now I am actively seeking for Summer 2020 SDE internships.
 
 *Software Engineer Intern, Mobile Robot Department*
 
-The goal of my team is to analyze a new type of LiDAR and built processing tools for raw point cloud data. In order to provide upper management tools, I developed a internal dashboard web application from stretch for rendering point cloud images and parameters based on MVC principles. I created the front-end with D3.js and React.js for compressive data visualization, and built the back-end using Node.js and Express with MongoDB. To provide limits of authorities, I designed an authentication API using JWT (JSON Web Tokens). The website was used by many teams to manage their progress and saved them much time from directly access to the raw point cloud data.
+The goal of my team is to analyze a new type of LiDAR and built processing tools for raw point cloud data. In order to provide upper management tools, I developed a internal dashboard web application **from stretch** for rendering point cloud images and parameters based on **MVC principles**. I created the front-end with **D3.js** and **React.js** for compressive data visualization, and built the back-end using **Node.js** and **Express** with **MongoDB**. To provide limits of authorities, I designed an authentication API using **JWT (JSON Web Tokens)**. The website was used by many teams to manage their progress and saved them much time from directly access to the raw point cloud data.
 
 
-I also did some supportive work, including building a point cloud preprocessing pipeline for denoising and implementing SURF and SIFT feature detection algorithms, using C++ and PCL (Point Cloud Library).
+I also did some supportive work, including building a point cloud preprocessing pipeline for denoising and implementing SURF and SIFT feature detection algorithms, using **C++** and **PCL (Point Cloud Library)**.
 
 ---
 
 <h3>University of California, Los Angeles</h3> 
 *Research Assistant, Center for Vision, Cognition, Learning and Autonomy*
 
-Our team worked on build a model-based trajectory optimization library using large-scale nonlinear programming. I used the physical engine Mujoco to provide real dynamic and kinematic constraints, and used the nonlinear optimizer IPOPT to provide large-scale data-driven optimization. Then I built a data visualization module that can interactively render 3D trajectory animations using C++ and OpenGL.
+Our team worked on build a model-based trajectory optimization library using large-scale nonlinear programming. I used the physical engine **Mujoco** to provide real dynamic and kinematic constraints, and used the nonlinear optimizer **IPOPT** to provide large-scale data-driven optimization. Then I built a data visualization module that can interactively render 3D trajectory animations using C++ and OpenGL.
 
 
-It's a short-cycle and iterative development project, so we used C++ best practices while coding. In order for the maintainability and scalability of the whole system, I wrote unit test using GTest/GMock framework in C++ with rigorous practices to maintain test coverage over 90%. Working with a large code base, one challenge was the memory leak and the poor performance. So I employed profiling data to fix memory leaks, and optimized the calculation of Jacobian Matrix and significantly improve the cache performance.
+It's a short-cycle and iterative development project, so we used **C++ best practices** while coding. In order for the **maintainability** and **scalability** of the whole system, I wrote unit test using **GTest/GMock** framework in C++ with rigorous practices to maintain test coverage over **90%**. Working with a large code base, one challenge was the memory leak and the poor performance. So I employed profiling data to fix **memory leaks**, and optimized the calculation of Jacobian Matrix and significantly improve the **cache performance**.
 
 
 
