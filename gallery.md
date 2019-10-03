@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## See the selected photos
+## See the Selected Photos
 
 **[Back](./)**
 
